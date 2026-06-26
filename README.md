@@ -36,8 +36,12 @@ Este repositório documenta minha jornada de aprendizado em SQL através de exer
 | Lesson 4 | Filtering and Sorting Query Results | ✅ |
 | Lesson 5 | SQL Review | ✅ |
 | Lesson 6 | Multi-table Queries with JOINs | ✅ |
-| Lesson 7 | OUTER JOINs | ⏳ |
-| Lesson 8 | NULL Values | ⏳ |
+| Lesson 7 | OUTER JOINs | ✅ |
+| Lesson 8 | NULL Values | ✅ |
+| Lesson 9 | Queries with Expressions | ✅ |
+| Lesson 10 | Queries with Aggregates (Pt. 1) | ✅ |
+| Lesson 11 | Queries with Aggregates (Pt. 2) | ✅ |
+| Lesson 12 | Order of Execution | ✅ |
 
 ---
 
