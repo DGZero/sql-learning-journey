@@ -1,37 +1,38 @@
 # SQLBolt Lesson 9 - Queries with Expressions
 
-## 📚 Objetivo
+## 📚 Objective
 
-Aprender a utilizar expressões matemáticas em consultas SQL para criar novas colunas e transformar dados durante a consulta.
+Learn how to use SQL expressions to perform calculations, transform data, and create custom output columns directly within a query.
 
 ---
 
-## 📖 Conceitos aprendidos
+## 📖 Concepts Learned
 
-### ➕ Operadores matemáticos
+### ➕ SQL Expressions
 
-Podemos realizar cálculos diretamente no SELECT.
+SQL allows arithmetic operations inside the `SELECT` statement.
 
-Exemplos:
+Supported operators:
+
+- `+` Addition
+- `-` Subtraction
+- `*` Multiplication
+- `/` Division
+- `%` Modulo (remainder)
+
+Example:
 
 ```sql
 SELECT
-    price * quantity AS total
+    price * quantity AS total_price
 FROM sales;
 ```
 
-Operadores disponíveis:
-
-- `+` Soma
-- `-` Subtração
-- `*` Multiplicação
-- `/` Divisão
-
 ---
 
-### 🏷️ Alias (AS)
+### 🏷️ Column Aliases
 
-Podemos dar um nome para o resultado de uma expressão.
+Aliases make query results easier to understand.
 
 ```sql
 SELECT
@@ -41,13 +42,11 @@ FROM employees;
 
 ---
 
-### 💰 Conversão de unidades
+### 💰 Unit Conversion
 
-É comum precisar converter valores.
+Sometimes database values need to be converted into more meaningful units.
 
-Exemplo:
-
-Converter dólares para milhões de dólares.
+Example: Convert dollars into millions of dollars.
 
 ```sql
 SELECT
@@ -60,25 +59,11 @@ ON movies.id = boxoffice.movie_id;
 
 ---
 
-### 📈 Conversão para porcentagem
+### 📈 Percentage Conversion
 
-Antes de calcular porcentagens, é importante verificar como o dado está armazenado.
+Always verify how values are stored before converting them.
 
-Exemplo:
-
-Se o banco armazena:
-
-```
-8.2
-```
-
-Isso representa:
-
-```
-82%
-```
-
-Logo:
+If ratings are stored from **0 to 10**, convert them into percentages by multiplying by **10**.
 
 ```sql
 SELECT
@@ -91,27 +76,11 @@ ON movies.id = boxoffice.movie_id;
 
 ---
 
-## 💡 Aprendizados importantes
+## 📝 Exercises
 
-Nem sempre a fórmula matemática está errada.
+### Exercise 1 - Combined Movie Sales
 
-Primeiro é preciso entender a unidade utilizada pelo banco de dados.
-
-Exemplos:
-
-| Valor armazenado | Para exibir em % |
-|------------------|------------------|
-| 0.82 | ×100 |
-| 8.2 | ×10 |
-| 82 | Não converter |
-
----
-
-## 📝 Exercícios realizados
-
-### Exercício 1
-
-Listar filmes com vendas combinadas em milhões.
+Calculate total movie sales in millions of dollars.
 
 ```sql
 SELECT
@@ -125,9 +94,9 @@ ORDER BY combined_sales DESC;
 
 ---
 
-### Exercício 2
+### Exercise 2 - Ratings in Percentage
 
-Exibir rating em porcentagem.
+Convert movie ratings into percentages.
 
 ```sql
 SELECT
@@ -140,9 +109,9 @@ ON movies.id = boxoffice.movie_id;
 
 ---
 
-### Exercício 3
+### Exercise 3 - Movies Released in Even Years
 
-Listar filmes lançados em anos pares.
+Return movies released in even-numbered years.
 
 ```sql
 SELECT
@@ -154,26 +123,26 @@ WHERE year % 2 = 0;
 
 ---
 
-## 🎯 O que aprendi nesta aula
+## 🎯 Key Takeaways
 
-- Criar expressões matemáticas em SQL
-- Utilizar operadores (+, -, *, /)
-- Criar aliases com AS
-- Converter unidades de medida
-- Converter notas em porcentagem
-- Utilizar o operador módulo (%) para identificar números pares
-- Interpretar corretamente os requisitos do problema antes de escrever a consulta
+- Performed arithmetic operations in SQL queries.
+- Created calculated columns using expressions.
+- Used aliases (`AS`) for better readability.
+- Converted values into different units.
+- Converted ratings into percentages.
+- Used the modulo operator (`%`) to identify even numbers.
+- Learned the importance of understanding how data is stored before performing calculations.
 
 ---
 
-## 🚀 Próximo passo
+## 🚀 Next Lesson
 
-➡️ SQL Lesson 10 - Queries with Aggregates (Part 1)
+**SQL Lesson 10 – Queries with Aggregates (Part 1)**
 
-Nesta aula começarei funções de agregação:
+Topics to learn:
 
-- COUNT()
-- SUM()
-- AVG()
-- MIN()
-- MAX()
+- `COUNT()`
+- `SUM()`
+- `AVG()`
+- `MIN()`
+- `MAX()`
