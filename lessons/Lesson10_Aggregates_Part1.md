@@ -79,41 +79,28 @@ FROM employees;
 
 ### Exercise 1
 
-Count the total number of movies.
+1 - Find the longest time that an employee has been at the studio ✓
 
-```sql
--- Your solution here
-```
+SELECT Name, MAX(years_employed) FROM employees;
 
----
 
 ### Exercise 2
 
-Calculate the average movie rating.
+2 - For each role, find the average number of years employed by employees in that role ✓
 
-```sql
--- Your solution here
-```
-
+SELECT ROLE, AVG(years_employed) AS AVG FROM employees
+GROUP BY ROLE;
 ---
 
 ### Exercise 3
 
-Find the highest movie rating.
+3 - Find the total number of employee years worked in each building ✓
 
-```sql
--- Your solution here
-```
+SELECT Building, SUM(years_employed) AS AVG FROM employees
+GROUP BY Building;
 
 ---
 
-### Exercise 4
-
-Find the total domestic sales.
-
-```sql
--- Your solution here
-```
 
 ---
 
