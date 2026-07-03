@@ -26,10 +26,10 @@ Este repositório documenta minha jornada de aprendizado em SQL através de exer
 
 ---
 
-## Progress | Progresso
+## 📚 Progress
 
 | Lesson | Topic | Status |
-|----------|----------|----------|
+|----------|-----------------------------------------|:------:|
 | Lesson 1 | Simple SELECT Queries | ✅ |
 | Lesson 2 | Queries with Constraints | ✅ |
 | Lesson 3 | Queries with Constraints (Pt. 2) | ✅ |
@@ -42,6 +42,12 @@ Este repositório documenta minha jornada de aprendizado em SQL através de exer
 | Lesson 10 | Queries with Aggregates (Pt. 1) | ✅ |
 | Lesson 11 | Queries with Aggregates (Pt. 2) | ✅ |
 | Lesson 12 | Order of Execution | ✅ |
+| Lesson 13 | Inserting Rows | ✅ |
+| Lesson 14 | Updating Rows | ✅ |
+| Lesson 15 | Deleting Rows | ✅ |
+| Lesson 16 | Creating Tables | ⏳ |
+| Lesson 17 | Altering Tables | ⏳ |
+| Lesson 18 | Dropping Tables | ⏳ |
 
 ---
 
