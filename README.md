@@ -1,5 +1,9 @@
 # 🚀 SQLBolt Journey
 
+![SQL](https://img.shields.io/badge/SQL-Learning-blue)
+![Status](https://img.shields.io/badge/Progress-100%25-success)
+![Course](https://img.shields.io/badge/SQLBolt-Completed-brightgreen)
+
 Learning SQL fundamentals through SQLBolt with documented lessons, exercises, and notes.
 
 ## 📖 About
