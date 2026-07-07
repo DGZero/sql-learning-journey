@@ -1,32 +1,33 @@
-# SQL Learning Journey | Jornada de Aprendizado em SQL
+# 🚀 SQLBolt Journey
 
-🇺🇸 Welcome to my SQL learning repository.
+Learning SQL fundamentals through SQLBolt with documented lessons, exercises, and notes.
 
-This repository documents my SQL learning journey through exercises, notes, and practical examples. The goal is to build a strong foundation in SQL for Data Analytics and Data Engineering roles.
+## 📖 About
 
-## Goals
+This repository documents my progress through the SQLBolt course.
 
-- Master SQL fundamentals and advanced concepts
-- Build a documented study portfolio
-- Practice real-world data analysis scenarios
-- Prepare for Data Analytics and Data Engineering positions
+The goal is not only to complete the exercises, but also to understand the concepts behind SQL and build a strong foundation for Data Analytics and Data Engineering.
 
----
+Throughout this repository, I document:
 
-🇧🇷 Bem-vindo ao meu repositório de estudos SQL.
-
-Este repositório documenta minha jornada de aprendizado em SQL através de exercícios, anotações e exemplos práticos. O objetivo é construir uma base sólida para atuar em Data Analytics e Data Engineering.
-
-## Objetivos
-
-- Dominar fundamentos e conceitos avançados de SQL
-- Construir um portfólio documentado de estudos
-- Praticar cenários reais de análise de dados
-- Preparar-me para posições em Dados e Engenharia de Dados
+- 📚 Concepts learned
+- 💻 SQL queries
+- 📝 Personal notes
+- 🎯 Real-world applications
+- 💡 Interview tips
 
 ---
 
-## 📚 Progress
+## 🛠️ Technologies
+
+- SQL
+- SQLite
+- Git
+- GitHub
+
+---
+
+## 📚 Course Progress
 
 | Lesson | Topic | Status |
 |----------|-----------------------------------------|:------:|
@@ -45,41 +46,89 @@ Este repositório documenta minha jornada de aprendizado em SQL através de exer
 | Lesson 13 | Inserting Rows | ✅ |
 | Lesson 14 | Updating Rows | ✅ |
 | Lesson 15 | Deleting Rows | ✅ |
-| Lesson 16 | Creating Tables | ⏳ |
-| Lesson 17 | Altering Tables | ⏳ |
-| Lesson 18 | Dropping Tables | ⏳ |
+| Lesson 16 | Creating Tables | ✅ |
+| Lesson 17 | Altering Tables | ✅ |
+| Lesson 18 | Dropping Tables | ✅ |
 
 ---
 
-## Repository Structure | Estrutura do Repositório
+## 📂 Repository Structure
 
-Each lesson contains:
-- Concepts learned
-- Practical examples
-- Personal notes
-- SQL queries
-
-Cada lição contém:
-- Conceitos aprendidos
-- Exemplos práticos
-- Anotações pessoais
-- Consultas SQL
+```text
+SQLBolt/
+│
+├── README.md
+│
+├── lesson01/
+│   ├── README.md
+│   └── queries.sql
+│
+├── lesson02/
+│   ├── README.md
+│   └── queries.sql
+│
+├── ...
+│
+├── lesson18/
+│   ├── README.md
+│   └── queries.sql
+```
 
 ---
 
-## Current Focus | Foco Atual
+## 🎯 Skills Developed
 
-- SQLBolt
+- SQL Syntax
+- Data Filtering
+- Sorting
+- Aggregate Functions
+- GROUP BY
+- HAVING
+- Expressions
+- INNER JOIN
+- LEFT JOIN
+- NULL Handling
+- INSERT
+- UPDATE
+- DELETE
+- CREATE TABLE
+- ALTER TABLE
+- DROP TABLE
+
+---
+
+## 📈 Learning Outcomes
+
+After completing SQLBolt, I gained practical experience with:
+
+- Writing SQL queries
+- Query optimization fundamentals
+- Relational database concepts
+- CRUD operations
+- Database schema design
+- Data aggregation
+- Multi-table queries
+
+---
+
+## 🎯 Next Steps
+
 - PostgreSQL
-- Data Analytics
-- Data Engineering Fundamentals
-- Microsoft DP-800
-- Microsoft DP-900
+- DataLemur SQL
+- LeetCode SQL
+- Advanced SQL
+- Window Functions
+- Common Table Expressions (CTEs)
+- Views
+- Indexes
 
 ---
 
-## Connect With Me | Contato
+## 👨‍💻 Author
 
-💼 LinkedIn: [deividggomes](https://www.linkedin.com/in/deividggomes/)
+**Deivid Gabriel**
 
-🐙 GitHub: DGZero
+Data Analyst | Tech Support Specialist
+
+- GitHub: https://github.com/DGZero
+- LinkedIn: https://linkedin.com/in/deividggomes
