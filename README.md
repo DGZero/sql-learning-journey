@@ -55,23 +55,21 @@ Throughout this repository, I document:
 ## 📂 Repository Structure
 
 ```text
-SQLBolt/
+sql-learning-journey/
 │
 ├── README.md
 │
-├── lesson01/
-│   ├── README.md
-│   └── queries.sql
+├── lessons/
+│   ├── Lesson01_Select.md
+│   ├── Lesson02_Constraints.md
+│   ├── ...
+│   └── Lesson18_Dropping.md
 │
-├── lesson02/
-│   ├── README.md
-│   └── queries.sql
-│
-├── ...
-│
-├── lesson18/
-│   ├── README.md
-│   └── queries.sql
+└── queries/
+    ├── lesson01.sql
+    ├── lesson02.sql
+    ├── ...
+    └── lesson18.sql
 ```
 
 ---
